@@ -32,41 +32,7 @@
 <body id="page-top">
 
   <!-- Navigation -->
-   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container">
-        <a class="navbar-brand <?= base_url() ?>js-scroll-trigger" href="#page-top">
-            <img class="logo" src="<?= base_url()?>img/icono.png">
-        </a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
-          <!--li class="nav-item">
-            <a class="nav-link <?= base_url() ?>js-scroll-trigger" href="#services">Inicio</a>
-          </li-->
-          <li class="nav-item">
-            <a class="nav-link <?= base_url() ?>js-scroll-trigger" href="#services">Acerca de</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link <?= base_url() ?>js-scroll-trigger" href="<?= base_url()?>principal/robo">¿Cómo usar la APP en caso de robo?</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link <?= base_url() ?>js-scroll-trigger" href="<?= base_url()?>principal/nosotros">¿Quiénes somos?</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link <?= base_url() ?>js-scroll-trigger" href="#contact">Contacto</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link <?= base_url() ?>js-scroll-trigger" href="<?= base_url()?>">
-                  <img class="buttonApp" src="<?= base_url()?>img/downloadapp.png">
-              </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+   <?php $this->load->view("nav"); ?>
 
   <!-- Header -->
   <header class="masthead" id="home" style="background-image: url('img/bannerlasthome.png');">
@@ -74,10 +40,10 @@
       <div class="intro-text">
         <div class="intro-lead-in">Toda la ayuda ciclista a tu alcance</div>
         <!--div class="intro-heading text-uppercase">It's Nice To Meet You</div-->
-        <a class="btn btn-xl text-uppercase js-scroll-trigger" href="#services">
+        <!--a class="btn btn-xl text-uppercase js-scroll-trigger" href="#services">
             <img class="store" src="<?= base_url()?>img/appstore.png">
-        </a>
-        <a class="btn btn-xl text-uppercase js-scroll-trigger" href="#services">
+        </a-->
+        <a class="btn btn-xl text-uppercase js-scroll-trigger" href="https://play.google.com/store/apps/details?id=com.bicisos.i7.bicisos">
             <img class="store" src="<?= base_url()?>img/androidstore.png">
         </a>
       </div>
