@@ -14,17 +14,23 @@
         </div>
       </div>
       <div class="row centered text-center">
-        <div class="col-2 text-center offset-2">
-            <img class="minthumb" src="<?= base_url()?>img/faceweb.png" >          
+        <div class="col-2 text-center offset-3">
+            <a href="https://www.facebook.com/groups/266612746861233/">
+              <img class="minthumb" src="<?= base_url()?>img/faceweb.png" >          
+            </a>
         </div>
         <div class="col-2">
+           <a href="https://twitter.com/BiciRobos_SOSmx">
             <img class="minthumb" src="<?= base_url()?>img/twitterweb.png" >
-        </div>
-          <div class="col-2">
+          </a>
+        </div>        
+        <!--div class="col-2">
             <img class="minthumb" src="<?= base_url()?>img/instagramweb.png" >
-        </div>
+        </div-->
           <div class="col-2">
+            <a href="https://www.youtube.com/channel/UC8oVFy0ago5TyticBa77JhQ?view_as=subscriber">
             <img class="minthumb" src="<?= base_url()?>img/youtubeweb.png" >
+          </a>
         </div>
       </div>
         <div class="row">

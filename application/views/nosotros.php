@@ -442,17 +442,23 @@
         </div>
       </div>
       <div class="row centered text-center">
-        <div class="col-2 text-center offset-2">
+        <div class="col-2 text-center offset-3">
+          <a href="https://www.facebook.com/groups/266612746861233/">
             <img src="<?= base_url()?>img/faceweb.png" >          
+          </a>
         </div>
         <div class="col-2">
+          <a href="https://twitter.com/BiciRobos_SOSmx">
             <img src="<?= base_url()?>img/twitterweb.png" >
+          </a>
         </div>
-          <div class="col-2">
+          <!--div class="col-2">
             <img src="<?= base_url()?>img/instagramweb.png" >
-        </div>
+        </div-->
           <div class="col-2">
+            <a href="https://www.youtube.com/channel/UC8oVFy0ago5TyticBa77JhQ?view_as=subscriber">
             <img src="<?= base_url()?>img/youtubeweb.png" >
+          </a>
         </div>
       </div>
         <div class="row">
